@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "droid";
+    src: url(fonts/idroid.otf);
+}
+/*
+    Cores aqui
+*/
+:root{
+    --cor1: #e2dca5;
+}
+body {
+    margin: 0px;
+    background-color: var(--cor1);
+}
+
+header,
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header>h1,
+sub {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #84e1ad, #164D2F);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    color: white;
+}
+
+.links {
+    text-align: left;
+    margin: 0px;
+    padding: 15px;
+
+}
+
+header>.links>a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #c6e7d5;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+    min-width: 320px;
+    max-width: 1000px;
+
+}
+
+.titulo,
+.corpo>h2 {
+    color: #164D2F;
+    font-family: "droid";
+    margin: 0px 10px 10px 10px;
+    padding: 5px;
+}
+
+.corpo h2 {
+    background-image: linear-gradient(to right, #5ccf8e44, white);
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 5px;
+}
+
+img,
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.bug{
+    max-width: 450px;
+}
+.vdo {
+    background-color: #164D2F;
+    margin: 10px;
+    padding: 25px;
+}
+
+main>p>strong,
+main>section>p>strong {
+    color: #164D2F;
+}
+
+main>section>p>a {
+    background-color: #3be0858c;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main>section>p>a::after {
+    content: "🔗";
+}
+
+main>section>p>a:active {
+    color: beige;
+}
+
+.links>a:hover {
+    background-color: #84e1ad;
+    color: #164D2F;
+}
+
+.links>a:active {
+    color: beige;
+}
+
+
+
+.extra {
+    background-color: #68eba39c;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
+
+.extra>h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b3d22;
+    color: white;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+#ulink {
+    background: none;
+}
+
+ul {
+    display: inline-block;
+    padding: 0px 0px 0px 60px;
+    list-style-type: "✅ ";
+}
+
+#lista {
+    padding-left: 40px;
+}
+
+footer>p {
+    margin: 25px 0px 0px 0px;
+    background-color: #0b3d22;
+    color: white;
+    text-align: center;
+}
